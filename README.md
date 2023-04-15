@@ -1,24 +1,144 @@
-# README
+# 📗 Table of Contents
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-Things you may want to cover:
+<!-- PROJECT DESCRIPTION -->
 
-* Ruby version
+# 📖 Hello Rails React App <a name="about-project"></a>
 
-* System dependencies
+This project involves the integration of React and Rails within a single application, utilizing Webpack as the underlying technology.
 
-* Configuration
+## 🛠 Built With <a name="built-with"></a>
 
-* Database creation
+### Tech Stack <a name="tech-stack"></a>
 
-* Database initialization
+<details>
+  <summary>Language</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Rails</a></li>
+    <li><a href="https://www.postgresql.org/">Postgresql</a></li>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
 
-* How to run the test suite
+<!-- Features -->
 
-* Services (job queues, cache servers, search engines, etc.)
+### Key Features <a name="key-features"></a>
 
-* Deployment instructions
+- **Show random greetings on the UI that are fetched from the rails API**
 
-* ...
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Install ruby on your computer or run it with docker
+- Have rails installed on your computer
+
+### Setup
+
+Clone this repository by using the command line :
+
+- `https://github.com/Estherstarr/hello-world.git`
+- `cd hello-rails-react-project`
+
+### Install
+
+Install this project with:
+
+`bundle install`
+
+### Usage
+
+To run the project, execute the following commands:
+
+- To run the rails server for the API's run `rails s` and to run the webpack to display React run `yarn build --watch` as stated in the Procfile.dev, located in the root directory.
+
+- Then run the project on localhost:3000, and you should see the greeting displayed as required.
+
+NB: your config/database.yml file should contain the following 
+```
+username= YOUR _DATABASE_NAME || postgres
+password= YOUR _DATABASE_PASSWORD
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Keenan Botes**
+
+- GitHub: [@Estherstarr](https://github.com/Estherstarr/)
+- Twitter: [@Estherstarr](https://twitter.com/AnibeEsther)
+- LinkedIn: [Estherstarr](https://linkedin.com/in/onwuanibeonome)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Implement more functionalities and better UI**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project feel free to star it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for this learning opportunity.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
